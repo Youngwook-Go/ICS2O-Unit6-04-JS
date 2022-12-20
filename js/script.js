@@ -26,6 +26,10 @@ function pageLoad() {
   const sphereVolume = (4 / 3) * sphereRadius ** 3 * Math.PI
   console.log(sphereVolume.toFixed(2))
 
-  document.getElementById("answer").innerHTML = "The radius is : " + sphereRadius + " cm<br>The volume is : " + sphereVolume.toFixed(2) + " cm³"
+  document.getElementById("answer").innerHTML =
+    "The radius is : " +
+    sphereRadius +
+    " cm<br>The volume is : " +
+    sphereVolume.toFixed(2) +
+    " cm³"
 }
-
